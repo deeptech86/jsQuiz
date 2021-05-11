@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/choosetopics.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+      integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="Container">
+      <div class="quizContent">
+        <div id="header">
+          <h2 id="question">Welcome to Dip's Quiz.</h2>
+          <h4>Select a quiz from the below set of topics</h4>
+        </div>
+        <div id="quiz" class="row-sm">
+          <div class="col-sm-6">
+            <ul id="topics">
+              <li id="answers">
+                <input type="radio" class="topics" id="23" name="topics" />
+                <label id="a_text" for="23">History</label>
+              </li>
+              <li id="answers">
+                <input type="radio" class="topics" id="22" name="topics" />
+                <label id="b_text" for="22">Geography</label>
+              </li>
+              <li id="answers">
+                <input type="radio" class="topics" id="9" name="topics" />
+                <label id="c_text" for="9">GK</label>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <ul id="topics">
+              <li id="answers">
+                <input type="radio" class="topics" id="24" name="topics" />
+                <label id="d_text" for="24">Politics</label>
+              </li>
+              <li id="answers">
+                <input type="radio" class="topics" id="18" name="topics" />
+                <label id="a_text" for="18">Computers</label>
+              </li>
+              <li id="answers">
+                <input type="radio" class="topics" id="27" name="topics" />
+                <label id="b_text" for="27">Animals</label>
+              </li>
+            </ul>
+          </div>
+          <!-- <div class="col-sm-4">
+            <ul id="topics">
+              <li id="answers">
+                <input type="radio" class="options" id="opt_c" name="options" />
+                <label id="c_text" for="opt_c">a</label>
+              </li>
+              <li id="answers">
+                <input type="radio" class="options" id="opt_d" name="options" />
+                <label id="d_text" for="opt_d">a</label>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+      <input id="btn" type="submit" value="Start" />
+    </div>
+    <script src="./js/landingPage.js"></script>
+  </body>
+</html>

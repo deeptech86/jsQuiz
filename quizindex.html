@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/quizscript.css" />
+  </head>
+  <body>
+    <div id="Container">
+      <div class="quizContent">
+        <div id="loading">
+          <img id="loading-image" src="ajax-loader.gif" alt="Loading..." />
+        </div>
+        <div id="header">
+          <h5 id="number">Quest number</h5>
+          <button id="skipbtn">Skip</button>
+        </div>
+        <h2 id="question">Questions Text</h2>
+        <div id="quiz"></div>
+        <ul>
+          <li id="answers_a">
+            <input type="radio" class="options" id="opt_a" name="options" />
+            <label id="a_text" class="opt_a" for="opt_a">a</label>
+          </li>
+          <li id="answers">
+            <input type="radio" class="options" id="opt_b" name="options" />
+            <label id="b_text" class="opt_b" for="opt_b">a</label>
+          </li>
+          <li id="answers">
+            <input type="radio" class="options" id="opt_c" name="options" />
+            <label id="c_text" class="opt_c" for="opt_c">a</label>
+          </li>
+          <li id="answers">
+            <input type="radio" class="options" id="opt_d" name="options" />
+            <label id="d_text" class="opt_d" for="opt_d">a</label>
+          </li>
+        </ul>
+      </div>
+      <input id="btn" type="submit" value="Submit" />
+    </div>
+    <script src="./js/quizindex.js"></script>
+  </body>
+</html>
